@@ -1,0 +1,24 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addproduct"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="ADD PRODUCT"
+        android:background="@color/buttonclr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/searchproduct"
+        android:layout_margin="10dp"
+        android:text="SEARCH PRODUCT"
+        android:background="@color/buttonclr"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
